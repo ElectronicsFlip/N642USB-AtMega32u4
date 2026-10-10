@@ -1,4 +1,4 @@
-# NES2USB
+# N642USB
 
 An Atmega32U4 based USB Adapter for Nintendo 64 controllers. Physical prototypes are built using the Sparkfun Pro Micro based generic boards commonly available on Amazon and AliExpress, etc.
 
