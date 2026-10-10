@@ -34,12 +34,10 @@ Use any available Nintendo 64 female socket. An extension cable is an easy way t
 
 ![N64 Controller Pinout](/doc/n64-pinout.gif)
 
-**Pinout**
+**Pinout (console side)**
 * Pin 1: GND
 * Pin 2: Data
 * Pin 3: 3.3V
-
-
 
 ### Wiring to the Arduino
 
@@ -61,6 +59,8 @@ The Pro Micro boards and clones that I use for my builds have multiple GND pins 
 * VCC -> VIN
 * VOUT -> Controller Socket 3.3V (pin 3)
 * GND -> GND
+
+__IMPORTANT:__ The 1KΩ pullup resistor between Data and 3.3V is not optional. Without this resistor you will not get correct readings.
 
 *OPTIONAL: RXI pin is used for LED+ as it's right next to a ground pin for a pin header that we use here to indicate power if you build this into a case. This is entirely optional.*
 
