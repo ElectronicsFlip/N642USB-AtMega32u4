@@ -12,7 +12,7 @@ MIT License. See LICENSE for details.
 
 __Required__
 * Atmega32u4 based arduino board
-* AMS1117-3.3 step down dc converter
+* AMS1117-3.3 DC/DC step down converter
 * Female N64 controller socket
 * 1KΩ Resistor
 
